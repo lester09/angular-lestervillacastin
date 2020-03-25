@@ -1,1 +1,26 @@
 /* Add application styles & imports to this file! */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.main-div{
+  margin:20px;
+}
+
+th {
+    font-size: 14px;
+    background-color: #1586d8;
+    color: white;
+}
+
+tbody > tr > td{
+  font-size:12px;
+  cursor:pointer;
+}
+
+.emp-name{
+  text-decoration: underline;
+  color:#007bff;
+}
+
+.align-right{
+  float:right;
+}
